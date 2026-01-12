@@ -39,7 +39,7 @@ Jeff Geerling got 1.99 tok/s on Pi 5 16GB with the same model. Nova is almost 2Ã
 
 ## Qwen 2.5 3B Instruct
 
-**Model:** VRxiaojie/Qwen2.5-3B-Instruct-RKLLM  
+**Model:** VRxiaojie/Qwen2.5-3B-Instruct-RKLLM1.1.4  
 **File Size:** ~3.5 GB  
 **Prompts:** State capitals list + reverse engineering workflow
 

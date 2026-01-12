@@ -87,13 +87,13 @@ Using HuggingFace CLI:
 pip3 install huggingface_hub[cli]
 
 # Download Qwen 2.5 3B (recommended starting point)
-huggingface-cli download VRxiaojie/Qwen2.5-3B-Instruct-RKLLM \
+huggingface-cli download VRxiaojie/Qwen2.5-3B-Instruct-RKLLM1.1.4 \
     --include "*.rkllm" \
     --local-dir ~/models/qwen-3b
 
 # Or download Llama 3.1 8B
-huggingface-cli download c01zaut/Llama-3.1-8B-Instruct-RKLLM \
-    --include "*w8a8-opt-1-hybrid-ratio-1.0.rkllm" \
+huggingface-cli download c01zaut/Llama-3.1-8B-Instruct-rk3588-1.1.1 \
+    --include "*.rkllm" \
     --local-dir ~/models/llama-8b
 ```
 
@@ -270,17 +270,17 @@ indiedroid-nova-llm/
   16GB model with 64GB eMMC + case + cooler: ~$225
 
 ### Model Sources (Runtime 1.1.4+ Compatible)
-- **VRxiaojie/Qwen2.5-3B-Instruct-RKLLM:** [HuggingFace](https://huggingface.co/VRxiaojie/Qwen2.5-3B-Instruct-RKLLM)
-- **c01zaut/Llama-3.1-8B-Instruct-RKLLM:** [HuggingFace](https://huggingface.co/c01zaut/Llama-3.1-8B-Instruct-RKLLM)
+- **Qwen2.5-3B-Instruct-RKLLM:** [HuggingFace](https://huggingface.co/VRxiaojie/Qwen2.5-3B-Instruct-RKLLM1.1.4)
+- **Llama-3.1-8B-Instruct-RKLLM:** [HuggingFace](https://huggingface.co/c01zaut/Llama-3.1-8B-Instruct-rk3588-1.1.1)
 
 ### Official Documentation
-- **AmeriDroid Wiki:** [Indiedroid Nova Docs](https://wiki.indiedroid.us/en/indiedroid-nova)
+- **AmeriDroid Wiki:** [Indiedroid Nova User Guide](https://wiki.indiedroid.us/en/Nova/user-guide)
 - **RKNN Toolkit:** [GitHub](https://github.com/airockchip/rknn-toolkit2)
 - **ezrknn-llm:** [GitHub](https://github.com/Pelochus/ezrknn-llm)
 
 ### Community
 - **Reddit:** [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA)
-- **Discord:** [AmeriDroid Community](https://discord.gg/ameridroid)
+- **Discord:** [AmeriDroid Community](https://discord.gg/CstQjW8gX9)
 
 ---
 
@@ -308,7 +308,7 @@ MIT License - See [LICENSE](LICENSE) file
 **Trevor Unland**  
 - Website: [unland.dev](https://unland.dev)  
 - GitHub: [@TrevTron](https://github.com/TrevTron)  
-- Email: [contact@unland.dev](mailto:contact@unland.dev)
+- Email: [trevorunland@gmail.com](mailto:trevorunland@gmail.com)
 
 ---
 
