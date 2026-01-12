@@ -2,7 +2,7 @@
 
 **Running Llama 3.1 8B and other LLMs on the RK3588 NPU**
 
-I wanted to see if the Indiedroid Nova could actually beat a Raspberry Pi 5 for local LLM inference. Short answer: yes, by a lot. The NPU makes a real difference—getting 2-3× the performance on comparable models.
+I wanted to see if the Indiedroid Nova could actually beat a Raspberry Pi 5 for local LLM inference. Short answer: yes, by a lot. The NPU makes a real difference, getting 2-3× the performance on comparable models.
 
 [![Hardware](https://img.shields.io/badge/Hardware-Indiedroid%20Nova-blue)](https://ameridroid.com/products/indiedroid-nova)
 [![OS](https://img.shields.io/badge/OS-Debian%2012-red)](https://www.debian.org/)
@@ -101,13 +101,13 @@ huggingface-cli download c01zaut/Llama-3.1-8B-Instruct-RKLLM \
 
 ### 4. Run Inference
 
-**Terminal 1** — Start monitoring:
+**Terminal 1** - Start monitoring:
 ```bash
 chmod +x monitor-npu.sh
 ./monitor-npu.sh my_benchmark.log
 ```
 
-**Terminal 2** — Run inference:
+**Terminal 2** - Run inference:
 ```bash
 rkllm ~/models/qwen-3b/Qwen2.5-3B-Instruct-rk3588-w8a8.rkllm 1024 4096
 ```
@@ -314,7 +314,7 @@ MIT License - See [LICENSE](LICENSE) file
 
 ## 🎯 The Bottom Line
 
-Yeah, the Pi 5 has `ollama pull modelname` going for it. That's nice. But the second you want to try different quantizations or test new models, you're downloading from HuggingFace and reading docs anyway—same as RK3588.
+Yeah, the Pi 5 has `ollama pull modelname` going for it. That's nice. But the second you want to try different quantizations or test new models, you're downloading from HuggingFace and reading docs anyway, same as RK3588.
 
 I got the Nova working with the same tools Pi users use. HuggingFace, Python, standard Linux stuff. Just 2-3× faster because there's actual AI hardware doing the work.
 

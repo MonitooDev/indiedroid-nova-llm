@@ -132,7 +132,7 @@ All models load entirely in RAM with comfortable headroom:
 | **Speed** | 7.0 t/s | ~2 t/s | 3.72 t/s | ~2 t/s |
 | **RAM** | 4.0 GB | ~5 GB + swap | 8.6 GB | Requires swap |
 | **Hardware** | NPU | CPU only | NPU | CPU only |
-| **Advantage** | **3.5×** | — | **1.9×** | — |
+| **Advantage** | **3.5×** | - | **1.9×** | - |
 
 ### The 3B Sweet Spot
 Nova runs a **smarter 3B model** at the same speed Pi 5 runs a **dumber 1.5B model**:
@@ -156,12 +156,12 @@ Nova runs a **smarter 3B model** at the same speed Pi 5 runs a **dumber 1.5B mod
 
 ## What I Learned
 
-1. **NPU acceleration actually works** — 2-3× faster than Pi 5 across the board
-2. **3B is the sweet spot** — 7 tok/s with good accuracy and low RAM
-3. **8B is usable** — 3.72 tok/s is fine for interactive stuff (Pi 5 struggles at 2 tok/s)
-4. **16GB matters** — 8B runs without swap, which is huge
-5. **Chat templates matter** — forgot this once, got gibberish
-6. **Runtime versions matter** — old models won't load, wasted an hour on this
+1. **NPU acceleration actually works** - 2-3× faster than Pi 5 across the board
+2. **3B is the sweet spot** - 7 tok/s with good accuracy and low RAM
+3. **8B is usable** - 3.72 tok/s is fine for interactive stuff (Pi 5 struggles at 2 tok/s)
+4. **16GB matters** - 8B runs without swap, which is huge
+5. **Chat templates matter** - forgot this once, got gibberish
+6. **Runtime versions matter** - old models won't load, wasted an hour on this
 
 ---
 
@@ -171,7 +171,7 @@ Nova runs a **smarter 3B model** at the same speed Pi 5 runs a **dumber 1.5B mod
 List all 50 US state capitals in alphabetical order by state name.
 ```
 
-Used this because it's easy to verify—either it got them right or it didn't. Also exposes hallucinations fast since you can just count the capitals.
+Used this because it's easy to verify. Either it got them right or it didn't. Also exposes hallucinations fast since you can just count the capitals.
 
 ---
 
