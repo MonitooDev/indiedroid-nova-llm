@@ -266,7 +266,7 @@ indiedroid-nova-llm/
 ## 🔗 Resources
 
 ### Purchase Hardware
-- **AmeriDroid:** [Indiedroid Nova](https://ameridroid.com/products/indiedroid-nova)  
+- **AmeriDroid:** [Indiedroid Nova](https://ameridroid.com/products/indiedroid-nova?ref=ioqothsk)  
   16GB model with 64GB eMMC + case + cooler: ~$225
 
 ### Model Sources (Runtime 1.1.4+ Compatible)
