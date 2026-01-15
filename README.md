@@ -273,7 +273,8 @@ indiedroid-nova-llm/
 
 ### Purchase Hardware
 - **AmeriDroid:** [Indiedroid Nova](https://ameridroid.com/products/indiedroid-nova?ref=ioqothsk)  
-  16GB model with 64GB eMMC + case + cooler: ~$225
+  16GB model with 64GB eMMC + heatsink + fan: **$179.95**  
+  *(Pi 5 16GB is $150 but requires separate microSD, cooling, etc.)*
 
 ### Model Sources (Runtime 1.1.4+ Compatible)
 - **Qwen2.5-3B-Instruct-RKLLM:** [HuggingFace](https://huggingface.co/VRxiaojie/Qwen2.5-3B-Instruct-RKLLM1.1.4)
