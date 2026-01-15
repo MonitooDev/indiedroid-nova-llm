@@ -84,7 +84,13 @@ Using HuggingFace CLI:
 
 ```bash
 # Install HuggingFace CLI
-pip3 install huggingface_hub[cli]
+pip3 install "huggingface_hub[cli]" --break-system-packages
+
+# Add pip scripts to PATH (required on Debian 12)
+export PATH="$HOME/.local/bin:$PATH"
+
+# Make it permanent (if not already done by setup-nova.sh)
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 
 # Download Qwen 2.5 3B (recommended starting point)
 huggingface-cli download VRxiaojie/Qwen2.5-3B-Instruct-RKLLM1.1.4 \

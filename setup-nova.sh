@@ -58,7 +58,7 @@ echo ""
 
 echo "[3/7] Installing Python packages..."
 pip3 install --upgrade pip --break-system-packages
-pip3 install huggingface_hub opencv-python --break-system-packages
+pip3 install "huggingface_hub[cli]" opencv-python --break-system-packages
 echo "  ✓ Python packages installed"
 echo ""
 
@@ -131,6 +131,16 @@ if ! grep -q "ulimit -n 65536" "$HOME/.bashrc"; then
     echo "  ✓ ulimit added to .bashrc"
 else
     echo "  ℹ ulimit already configured"
+fi
+
+# Add ~/.local/bin to PATH (required for pip-installed CLI tools on Debian 12)
+if ! grep -q 'export PATH="$HOME/.local/bin:$PATH"' "$HOME/.bashrc"; then
+    echo "" >> "$HOME/.bashrc"
+    echo "# Add pip user scripts to PATH" >> "$HOME/.bashrc"
+    echo 'export PATH="$HOME/.local/bin:$PATH"' >> "$HOME/.bashrc"
+    echo "  ✓ PATH updated in .bashrc"
+else
+    echo "  ℹ PATH already configured"
 fi
 echo ""
 
